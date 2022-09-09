@@ -1,5 +1,8 @@
 var singleNumber = function(nums) {
-    const ht = {}; //this creates object to show how many times something is in array -> {1000: 4, 3: 22} first digit is num 2nd digit is how many times it appears 
+    const ht = {}; //this creates object to show how many times something is in array -> 
+    // Example below
+    //{1000: 4,} first digit is number/2nd digit is how many times it appears 
+    // for example with the array [2,2,1,2,2,1,3] the ht would show {2: 4, 1: 2, 3: 1}
 
     for(const num of nums){
         // this loops over and creates tallys of what numbers appear in arr 
